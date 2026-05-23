@@ -1,0 +1,42 @@
+[package]
+name = "blanknews"
+version = "1.0.0"
+description = "Starter template for Nuxt 4 and Tauri 2"
+authors = [ "NicolaSpadari" ]
+license = "MIT"
+repository = "https://github.com/NicolaSpadari/nuxtor"
+edition = "2021"
+
+[lib]
+name = "nuxtor_lib"
+crate-type = [
+  "staticlib",
+  "cdylib",
+  "rlib"
+]
+
+[build-dependencies.tauri-build]
+version = "2.5.3"
+features = [ ]
+
+[dependencies]
+tauri-plugin-shell = "2.3.4"
+tauri-plugin-notification = "2.3.3"
+tauri-plugin-os = "2.3.2"
+tauri-plugin-fs = "2.4.5"
+tauri-plugin-store = "2.4.2"
+serde_json = "1"
+tauri-plugin-http = "2"
+tauri-plugin-opener = "2"
+
+[features]
+default = [ "desktop" ]
+desktop = [ "tauri/tray-icon" ]
+
+[dependencies.tauri]
+version = "2.9.5"
+features = [ "unstable" ]
+
+[dependencies.serde]
+version = "1"
+features = [ "derive" ]

@@ -1,0 +1,19 @@
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_13">
+   <stop offset="0" stop-opacity="0.99219" stop-color="#00ff19"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#e100e5"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="142.98641" width="144.57014" y="3.35596" x="2.52601" fill="#fff"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="38.42383" x2="122.3204" y1="38.42383" x1="29.22285" stroke="#000" fill="none"/>
+  <line id="svg_3" y2="50.86727" x2="122.90558" y1="50.86727" x1="29.67534" stroke="#000" fill="none"/>
+  <line stroke="#000" id="svg_6" y2="11.95324" x2="138.49915" y1="11.95324" x1="9.31334" fill="none"/>
+  <path stroke-dasharray="2,2" stroke="#000" id="svg_7" d="m50.22624,91.29329l19.61694,0l6.06179,-9.50597l6.06179,9.50597l19.61694,0l-15.87041,5.87494l6.0621,9.50597l-15.87042,-5.8751l-15.87042,5.8751l6.0621,-9.50597l-15.87042,-5.87494z" fill="url(#svg_13)"/>
+  <path id="svg_14" d="m52.75226,76.20663l47.51131,38.68778" opacity="undefined" stroke="#000" fill="none"/>
+  <path id="svg_15" d="m51.39479,112.63197l51.13122,-35.52036" opacity="undefined" stroke="#000" fill="none"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="16" stroke-width="0" id="svg_16" y="29.37406" x="56.59841" stroke="#000" fill="#000000">News</text>
+ </g>
+</svg>

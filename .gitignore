@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Bun / npm / yarn
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Nuxt / Nitro / Vite
+.nuxt/
+.nitro/
+.output/
+.data/
+.cache/
+dist/
+.vite/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+logs/
+
+# TypeScript / tooling
+*.tsbuildinfo
+.eslintcache
+.prettiercache
+
+# Tests / coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Tauri (Rust)
+src-tauri/target/
+**/*.rs.bk
+src-tauri/WixTools/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors (optional: remove a line if your team commits these)
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.local
+.turbo/
+.vercel/
