@@ -1,6 +1,6 @@
 [package]
 name = "blanknews"
-version = "1.0.0"
+version = "1.0.1"
 description = "Starter template for Nuxt 4 and Tauri 2"
 authors = [ "NicolaSpadari" ]
 license = "MIT"
