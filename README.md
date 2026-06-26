@@ -43,7 +43,7 @@ Runs the web frontend only (no Tauri window).
 
 ## Build
 
-Bundle targets are **AppImage, .deb, and .rpm** (Linux), **MSI** (Windows), and **APK** (Android via a separate command).
+Bundle targets are **AppImage, .deb, and .rpm** (Linux), **EXE** (Windows), and **APK** (Android via a separate command).
 
 ```sh
 bun run generate
@@ -62,7 +62,7 @@ sudo mkdir -p /usr/lib/gdk-pixbuf-2.0/2.10.0
 sudo gdk-pixbuf-query-loaders --update-cache
 ```
 
-**Windows (setup program)**:
+**Windows (executable)**:
 
 ```sh
 bun tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc
