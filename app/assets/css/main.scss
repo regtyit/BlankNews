@@ -108,6 +108,7 @@ a {
 .nav-drawer-fixed {
     position: fixed;
     top: var(--app-content-offset-top);
+    padding-top: var(--safe-area-top);
     height: calc(100% - var(--app-content-offset-top));
 }
 

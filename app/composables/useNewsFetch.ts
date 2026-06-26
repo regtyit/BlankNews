@@ -89,7 +89,9 @@ export function useNewsFetch() {
     const set2 = new Set(words2)
     const matches = words1.filter((word) => set2.has(word)).length
 
-    return matches / Math.max(words1.length, words2.length)
+    const union = words1.length + words2.length - matches
+
+    return matches / union
   }
 
   const clusterArticles = (items: NewsItem[], threshold: number = 0.6): { clusters: NewsCluster[], cards: NewsItem[] } => {
@@ -137,7 +139,6 @@ export function useNewsFetch() {
         cards.push(item)
       }
     }
-
     return { clusters, cards }
   }
 
@@ -256,7 +257,6 @@ export function useNewsFetch() {
           retry: 2,
           retryDelay: 1000
         })
-
         xmlText = typeof response === "string" ? response : response.toString()
       } catch (error: any) {
         console.error("Proxy fetch error:", error.message)
